@@ -1,0 +1,82 @@
+#VRML V2.0 utf8
+
+# a better viewpoint (you will learn that later)
+Viewpoint { position -2 1 10 }
+
+Shape {
+   appearance Appearance {
+      texture ImageTexture {
+	 url "basics-persons-1_rc/mendelsohn.gif"
+      }
+   }
+   geometry Box { }
+}
+
+Transform {
+   translation 2 -1 -1
+   children [
+      Anchor {
+	 url         "http://tecfa.unige.ch/tecfa-people/schneider.html"
+	 description "A link to the authors Home Page"
+	 children [
+	    Shape {
+	       appearance Appearance {
+		  texture ImageTexture {
+		     url "basics-persons-1_rc/schneider.gif"
+		  }
+	       }
+	       geometry Sphere { }
+	    }
+	   ]
+      }
+     ]
+}
+
+Transform {
+   translation -2 -1 -1
+   children [
+      Shape {
+	 appearance Appearance {
+	    texture ImageTexture {
+	       url "basics-persons-1_rc/dillenbourg.gif"
+	    }
+	 }
+	 geometry Cone { }
+      }
+     ]
+}
+
+
+Transform {
+   translation -4 -1 -1
+   children [
+      Shape {
+	 appearance Appearance {
+	    texture ImageTexture {
+	       url "basics-persons-1_rc/peraya.gif"
+	    }
+	 }
+	 geometry Cylinder { }
+      }
+     ]
+}
+
+# Let's do a floor with my assistant
+Transform {
+   translation -4 -2 2
+   children [
+      Shape {
+	 appearance Appearance {
+	    texture ImageTexture {
+	       repeatS TRUE
+	       repeatT TRUE
+	       url "basics-persons-1_rc/sylvere.gif"
+	    }
+	    textureTransform TextureTransform {
+	       scale 10 10
+	    }
+	 }
+	 geometry Box {size 10 0.1 10 }
+      }
+     ]
+}
