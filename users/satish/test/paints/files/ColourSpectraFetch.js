@@ -17,7 +17,7 @@ var inputValue;
 var webSiteHostpathname;
 AsyncFalse();
 $(document).ready(
-function () { 
+function () {
 
 
     chkIsFirstLoad = 0;
