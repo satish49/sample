@@ -17,7 +17,7 @@ var inputValue;
 var webSiteHostpathname;
 AsyncFalse();
 $(document).ready(
-function () {
+function () { 
 
 
     chkIsFirstLoad = 0;
@@ -208,10 +208,10 @@ function GetSelectedValuesLeftListRadioBox() {
 
 function FillGridDetailsColours() {
 	$("#JSDetailsList").empty();
-	alert(document.getElementById('loadingImage').style.display);
+	//alert(document.getElementById('loadingImage').style.display);
 	document.getElementById('loadingImage').style.display = 'block';
 	
-	alert(document.getElementById('loadingImage').style.display);
+	//alert(document.getElementById('loadingImage').style.display);
    AsyncFalse();
     //selLeftSideColour = selLeftSideColour.replace("&", "@");
     var url = "https://www.asianpaints.com/Handlers/ColourSpectraFetchHandler.ashx?Section=fillGridList&QlstCategoryTab=" + selCategoryTab + "&QlstColourFamily=" + selLeftSideColour;
