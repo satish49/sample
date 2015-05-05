@@ -1,0 +1,344 @@
+#VRML V2.0 utf8
+
+# Produced by 3D Studio MAX VRML97 exporter
+# modified by Bitmanagement Software GmbH, H. Grahn, Andrea Fasce, Version 7.01, Revision 0
+# Date: Thu Mar 05 14:28:26 2015
+PROTO NurbsGroup[
+	field SFVec3f bboxSize -1 -1 -1
+	field SFVec3f bboxCenter 0 0 0
+	exposedField SFFloat tessellationScale 1.0
+	exposedField MFNode children []
+	eventIn MFNode addChildren
+	eventIn MFNode removeChildren
+]
+{
+	Group {
+		bboxSize IS bboxSize
+		bboxCenter IS bboxCenter
+		children IS children
+		addChildren	IS addChildren
+		removeChildren IS removeChildren
+	}
+}
+EXTERNPROTO NurbsSurface [
+field        SFInt32  uDimension
+field        SFInt32  vDimension 
+field        MFFloat  uKnot
+field        MFFloat  vKnot
+field        SFInt32  uOrder
+field        SFInt32  vOrder
+exposedField MFVec3f  controlPoint
+exposedField MFFloat  weight
+exposedField SFInt32  uTessellation
+exposedField SFInt32  vTessellation
+exposedField SFNode   texCoord
+field        SFBool   ccw
+field        SFBool   solid
+]
+[
+"urn:inet:bitmanagement.de:node:NurbsSurface",
+"nurbs.wrl#NurbsSurface"  # for local testing
+"http://www.bitmanagement.de/vrml/protos/nurbs.wrl#NurbsSurface"
+]
+WorldInfo {
+ info [ "Thu Mar 05 14:28:26 2015"
+  "options:relativeTime=true" ]
+}
+NurbsGroup {
+	children [
+DEF Box001 Transform {
+ translation -3.041779 0.000000 4.582920
+ children [
+  Shape {
+		    geometry DEF NS_160F05C8 NurbsSurface {
+       solid FALSE
+       solid FALSE 
+       ccw FALSE 
+       uOrder 4 
+       vOrder 4 
+       uDimension 4 
+       vDimension 4 
+       uKnot [
+         0  0  0  0  7.69381  7.69381 
+         7.69381  7.69381 
+       ]
+       vKnot [
+         0  0  0  0  7.08776  7.08776 
+         7.08776  7.08776 
+       ]
+       controlPoint [
+        -59.1947 0 50.2363 
+        -19.7316 0 50.2363 
+        19.7316 0 50.2363 
+        59.1947 0 50.2363 
+
+        -59.1947 0 16.7454 
+        -19.7316 0 16.7454 
+        19.7316 0 16.7454 
+        59.1947 0 16.7454 
+
+        -59.1947 0 -16.7454 
+        -19.7316 0 -16.7454 
+        19.7316 0 -16.7454 
+        59.1947 0 -16.7454 
+
+        -59.1947 0 -50.2363 
+        -19.7316 0 -50.2363 
+        19.7316 0 -50.2363 
+        59.1947 0 -50.2363 
+
+       ]
+      }#end of NurbsSurface
+      #nurbsset 001274DC nurbssurface 160F0378
+      appearance Appearance {
+       material DEF Box001_MAT Material {
+        diffuseColor 0.694 0.106 0.345
+        emissiveColor 0.606164 0.092466 0.301370
+       }
+      }
+      #nurbsset 001274DC nurbssurface 160F05C8
+     
+  }
+  Shape {
+		   geometry DEF NS_160F0378 NurbsSurface {
+       solid FALSE
+       solid FALSE 
+       ccw FALSE 
+       uOrder 4 
+       vOrder 4 
+       uDimension 4 
+       vDimension 4 
+       uKnot [
+         0  0  0  0  7.69381  7.69381 
+         7.69381  7.69381 
+       ]
+       vKnot [
+         0  0  0  0  7.08776  7.08776 
+         7.08776  7.08776 
+       ]
+       controlPoint [
+        59.1947 34.9871 50.2363 
+        19.7316 34.9871 50.2363 
+        -19.7316 34.9871 50.2363 
+        -59.1947 34.9871 50.2363 
+
+        59.1947 34.9871 16.7454 
+        19.7316 34.9871 16.7454 
+        -19.7316 34.9871 16.7454 
+        -59.1947 34.9871 16.7454 
+
+        59.1947 34.9871 -16.7454 
+        19.7316 34.9871 -16.7454 
+        -19.7316 34.9871 -16.7454 
+        -59.1947 34.9871 -16.7454 
+
+        59.1947 34.9871 -50.2363 
+        19.7316 34.9871 -50.2363 
+        -19.7316 34.9871 -50.2363 
+        -59.1947 34.9871 -50.2363 
+
+       ]
+      }#end of NurbsSurface
+      #nurbsset 001274DC nurbssurface 160F04A0
+      appearance Appearance {
+       material DEF Box002_MAT Material {
+        diffuseColor 0.694 0.106 0.345
+        emissiveColor 0.606164 0.092466 0.301370
+       }
+      }
+  }	  
+  Shape{
+       geometry DEF NS_160F04A0 NurbsSurface {
+       solid FALSE
+       solid FALSE 
+       ccw FALSE 
+       uOrder 4 
+       vOrder 4 
+       uDimension 4 
+       vDimension 4 
+       uKnot [
+         0  0  0  0  7.69381  7.69381 
+         7.69381  7.69381 
+       ]
+       vKnot [
+         0  0  0  0  4.18253  4.18253 
+         4.18253  4.18253 
+       ]
+       controlPoint [
+        -59.1947 0 -50.2363 
+        -19.7316 0 -50.2363 
+        19.7316 0 -50.2363 
+        59.1947 0 -50.2363 
+
+        -59.1947 11.6624 -50.2363 
+        -19.7316 11.6624 -50.2363 
+        19.7316 11.6624 -50.2363 
+        59.1947 11.6624 -50.2363 
+
+        -59.1947 23.3247 -50.2363 
+        -19.7316 23.3247 -50.2363 
+        19.7316 23.3247 -50.2363 
+        59.1947 23.3247 -50.2363 
+
+        -59.1947 34.9871 -50.2363 
+        -19.7316 34.9871 -50.2363 
+        19.7316 34.9871 -50.2363 
+        59.1947 34.9871 -50.2363 
+
+       ]
+      }#end of NurbsSurface
+      #nurbsset 001274DC nurbssurface 160EFB60
+	   appearance Appearance {
+       material DEF Box003_MAT Material {
+        diffuseColor 0.694 0.106 0.345
+        emissiveColor 0.606164 0.092466 0.301370
+       }
+      }
+  }
+  Shape {
+       geometry DEF NS_160EFB60 NurbsSurface {
+       solid FALSE
+       solid FALSE 
+       ccw FALSE 
+       uOrder 4 
+       vOrder 4 
+       uDimension 4 
+       vDimension 4 
+       uKnot [
+         0  0  0  0  7.69381  7.69381 
+         7.69381  7.69381 
+       ]
+       vKnot [
+         0  0  0  0  4.18253  4.18253 
+         4.18253  4.18253 
+       ]
+       controlPoint [
+        59.1947 0 50.2363 
+        19.7316 0 50.2363 
+        -19.7316 0 50.2363 
+        -59.1947 0 50.2363 
+
+        59.1947 11.6624 50.2363 
+        19.7316 11.6624 50.2363 
+        -19.7316 11.6624 50.2363 
+        -59.1947 11.6624 50.2363 
+
+        59.1947 23.3247 50.2363 
+        19.7316 23.3247 50.2363 
+        -19.7316 23.3247 50.2363 
+        -59.1947 23.3247 50.2363 
+
+        59.1947 34.9871 50.2363 
+        19.7316 34.9871 50.2363 
+        -19.7316 34.9871 50.2363 
+        -59.1947 34.9871 50.2363 
+
+       ]
+      }#end of NurbsSurface
+      #nurbsset 001274DC nurbssurface 160EFC88
+	  appearance Appearance {
+       material DEF Box003_MAT Material {
+        diffuseColor 0.694 0.106 0.345
+        emissiveColor 0.606164 0.092466 0.301370
+       }
+      }
+  }
+  Shape { 
+        geometry DEF NS_160EFC88 NurbsSurface {
+       solid FALSE
+       solid FALSE 
+       ccw FALSE 
+       uOrder 4 
+       vOrder 4 
+       uDimension 4 
+       vDimension 4 
+       uKnot [
+         0  0  0  0  7.08776  7.08776 
+         7.08776  7.08776 
+       ]
+       vKnot [
+         0  0  0  0  4.18253  4.18253 
+         4.18253  4.18253 
+       ]
+       controlPoint [
+        59.1947 0 -50.2363 
+        59.1947 0 -16.7454 
+        59.1947 0 16.7454 
+        59.1947 0 50.2363 
+
+        59.1947 11.6624 -50.2363 
+        59.1947 11.6624 -16.7454 
+        59.1947 11.6624 16.7454 
+        59.1947 11.6624 50.2363 
+
+        59.1947 23.3247 -50.2363 
+        59.1947 23.3247 -16.7454 
+        59.1947 23.3247 16.7454 
+        59.1947 23.3247 50.2363 
+
+        59.1947 34.9871 -50.2363 
+        59.1947 34.9871 -16.7454 
+        59.1947 34.9871 16.7454 
+        59.1947 34.9871 50.2363 
+
+       ]
+      }#end of NurbsSurface
+      #nurbsset 001274DC nurbssurface 160EFDB0
+	  appearance Appearance {
+       material DEF Box003_MAT Material {
+        diffuseColor 0.694 0.106 0.345
+        emissiveColor 0.606164 0.092466 0.301370
+       }
+      }
+  }
+  Shape {
+       geometry DEF NS_160EFDB0 NurbsSurface {
+       solid FALSE
+       solid FALSE 
+       ccw FALSE 
+       uOrder 4 
+       vOrder 4 
+       uDimension 4 
+       vDimension 4 
+       uKnot [
+         0  0  0  0  7.08776  7.08776 
+         7.08776  7.08776 
+       ]
+       vKnot [
+         0  0  0  0  4.18253  4.18253 
+         4.18253  4.18253 
+       ]
+       controlPoint [
+        -59.1947 0 50.2363 
+        -59.1947 0 16.7454 
+        -59.1947 0 -16.7454 
+        -59.1947 0 -50.2363 
+
+        -59.1947 11.6624 50.2363 
+        -59.1947 11.6624 16.7454 
+        -59.1947 11.6624 -16.7454 
+        -59.1947 11.6624 -50.2363 
+
+        -59.1947 23.3247 50.2363 
+        -59.1947 23.3247 16.7454 
+        -59.1947 23.3247 -16.7454 
+        -59.1947 23.3247 -50.2363 
+
+        -59.1947 34.9871 50.2363 
+        -59.1947 34.9871 16.7454 
+        -59.1947 34.9871 -16.7454 
+        -59.1947 34.9871 -50.2363 
+
+       ]
+      }#end of NurbsSurface
+	  appearance Appearance {
+       material DEF Box004_MAT Material {
+        diffuseColor 0.694 0.106 0.345
+        emissiveColor 0.606164 0.092466 0.301370
+       }
+      }
+  }  
+ ]
+}
+]
+}

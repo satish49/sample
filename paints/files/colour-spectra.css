@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document 539beb blue b77c61 brown*/
+/**{border:1px solid red}*/
+.page_ttl.spectra_ttl { width:246px; }
+.page_ttl.spectra_ttl.spectra_ttl_new { width:344px; }
+.spectra_fav { float: left; font-family: georgia; font-size: 1.4em; margin: 0 0 0 35px; padding: 35px 0 0; color:#333; width:114px }
+.spectra_fav a { color: #333333; float: left; height: 15px; padding: 0 5px 0 0; color:#333; cursor:pointer }
+.spectra_fav a input { cursor:pointer }
+.spectra_fav span { float:left; /*color:#FF4202; */ }
+.spectra_fav #txtActualFavoritesCount { background: url("./../images/sprite-icon.gif") no-repeat scroll left 3px transparent; padding:0 0 0 20px; margin-top:2px; cursor:pointer }
+/*.spectra_fav #txtActualFavoritesCount:hover{text-decoration:underline}*/
+.spectra_drpDown { background: url("./../images/spectra_dropdown.png") repeat scroll 0 0 transparent; float: right; height: 17px; margin-top: 3px; width: 18px; }
+.shade_search { float:right; /*padding:31px 27px 20px 0; width:270px; */ padding:31px 27px 10px 0; /*width:520px  width:504px*/ }
+.shade_search.shade_search_main { width:270px }
+.shade_search_top { width:100%; float:right }
+.shade_search .search_left { background: url("./../images/search_lt_bg.png") no-repeat scroll 0 0 transparent; float: left; height: 24px; width: 127px; }
+.shade_search input { background: none repeat scroll 0 0 transparent; color: #FFFFFF; float: left; font-family: trebuchet ms; font-size: 1.2em; font-weight:bold; height: 15px; padding: 4px 10px 4px 13px; width: 108px; }
+.shade_search .search_right { background: url("./../images/search_rt_bg.png") no-repeat scroll 0 0 transparent; float: left; height: 24px; text-indent: -9999px; width: 34px; }
+.shade_search span { background: url("./../images/arrow-right.gif") no-repeat scroll right 9px transparent; float: left; font-family: Georgia; font-size: 1.5em; font-style: italic; margin: 0 8px 0 0; padding: 2px 10px 0 0; color:#535351 }
+.spectra_content { float:left; width:100% }
+.spectra_content_left { float: left; margin-top: 40px; overflow: hidden; width: 162px; }
+.spectra_content_right { width:784px; float:left; }
+.spectra_content_right ul { width:100%; float:left }
+.spectra_content_right ul li.paint_type { cursor: pointer; padding: 11px 0 11px 0; text-align: center; min-width:104px/* width: 147px;*/; text-align:center }
+.spectra_content_right ul li.paint_type#colours { width:170px }
+.spectra_content_right ul li.paint_type#glitter { width:150px }
+.spectra_content_right ul li.paint_type#spl_shade { width:150px }
+.spectra_content_right ul li.paint_type#metallics { width:165px }
+.spectra_content_right ul li.paint_type#wood { width:142px }
+.spectra_content_right ul li.paint_type { background: url("./../images/calculator_tab_bg.gif") repeat scroll 0 0 transparent; border-right: 1px solid #C3C1BA; color: #919191; float: left; font-family: Arial; font-size: 1.6em; font-weight: bold; }
+.spectra_content_right ul li.active { background: url("./../images/tab_bg_gradient.gif") repeat-y scroll 0 0 transparent; color: #FFFFFF; cursor:default }
+.spectra_content_right ul .first { border-radius:24px 0 0 0; behavior: url(/js/PIE.htc); position:relative; }
+.spectra_content_right ul .last { border-radius: 0 24px 0 0; behavior: url(/js/PIE.htc); position:relative; }
+.spectra_content_list { background: none repeat scroll 0 0 #F2F1F1; float: left; padding:30px 17px; width:747px; position:relative }
+.spectra_list li, .spectra_list li .shade_container { position:relative; width:92px; height:53px; float:left; }
+.spectra_list li { padding:0 1px 25px 0; height:auto; height:90px; overflow:hidden }
+.close_spctra { position:relative; float:right; padding-bottom:5px; cursor:pointer }
+.spectra_popup .spectra_list li { padding:0 1px 14px 0 }
+.spectra_list .colour_code { width:86px; height:47px; float:left; border:3px solid #fff; background:#3070b1 }
+.spectra_list li .plus_ico, .spectra_popup .minus_ico, .spectra_popupsearch .minus_ico, .spectra_popupfavorites .minus_ico { position:absolute; right:3px; bottom:3px; background:url("./../images/shades_plus_minus.png") no-repeat scroll 0 -36px transparent; width:28px; height:26px; padding:0 7px 0 0; cursor:pointer }
+.spectra_popup .minus_ico { background-position:0 0; width:28px; height:26px; right:1px; bottom:1px; padding:0 5px 0 0 }
+.spectra_popup .shade_code { font-size:1.8em; float:left; padding:3px 0 0 0 }
+.spectra_list li .shade_code, .spectra_popup .spectra_list li .shade_code, .spectra_popupsearch .spectra_list li .shade_code, .spectra_popupfavorites .spectra_list li .shade_code { color:#333333; font-family:Arial; font-size:1.4em; float:left; width:100%; margin:5px 0 0 0 }
+.spectra_list li .shade_name { font-family:Arial; font-size:1.1em; color:#999999; float:left; width:100% }
+.spectra_popup .spectra_list li .shade_name { padding:0 }
+.spectra_content_left .spectra_colour_list { float:left; width:162px; padding:20px 0 0 0 }
+.spectra_content_left .spectra_colour_list li { padding:0 10px; cursor:pointer; float:left; width:142px; position:relative; width:138px;/*border:1px solid transparent*/ }
+.spectra_colour_list li:hover label, .spectra_colour_list li.active_shade label { color:#333 }
+.spectra_content_left .spectra_colour_list li .list_data { padding:12px 0; border-bottom:1px solid #aeaeac; float:left; position:relative; width:100% }
+.spectra_content_left .spectra_colour_list li.selected { background:#1970d1 }
+.spectra_content_left .spectra_colour_list li.last div { border:none }
+.spectra_content_left .spectra_colour_list li input { margin-top:3px; float:left; width:14px; height:13px; position:relative; opacity:0; filter: alpha(Opacity=0); z-index:7; cursor:pointer }
+.spectra_content_left .spectra_colour_list label { color: #666666; font-size: 1.4em; margin: 0 0 0 10px; cursor:pointer; float:left; width:112px; text-transform:lowercase }
+.spectra_content_left .spectra_colour_list label:first-letter { text-transform:uppercase }
+.left_content.spectra_left { background: url("./../images/spectra_left.png") no-repeat scroll 0 0 transparent; float: left; margin: 0; min-height: 600px; padding: 7px 0 15px 1px; position: relative; width: 161px; }
+.spectra_tab_content, .spectra_tabbbed_content { float:left; position:relative }
+.spectra_popup, .spectra_popupsearch, .spectra_popupfavorites { padding:10px; width:354px; background:#fff; color:#333333; position:absolute; -webkit-box-shadow: 2px 2px 2px 2px #d3d3d3; box-shadow: 1px 1px 2px 2px #d3d3d3; display:none; left:20px; top:30px; z-index:105 }
+.popup_shade { position:relative; width:100%; height:115px; background:#85b0db; clear:both }
+.spectra_popup .shade_name { font-size:1.3em; float:left; padding:8px 0 0 5px }
+.spectra_popup .view_shade { font-size:1.2em; float:right; padding:8px 10px 0 0; background: url("./../images/arrow-right.gif") no-repeat scroll right 12px transparent; margin:0 10px 0 0 }
+.popup_shade .fav_ico { position:absolute; top:9px; right:3px }
+.spectra_popup p { width:100%; float:left; font-size:1.3em; margin:10px 0 0 0 }
+.spectra_content_left .spectra_colour_list li:hover, .spectra_content_left .spectra_colour_list li.active_shade { /*border:1px solid #666*/ }
+.spectra_bullet, .spectra_content_left .spectra_colour_list li:hover .spectra_bullet { background-image: url("./../images/shade_bullets.png"); background-position:0 0; height: 13px; position: absolute; width: 14px; z-index: 5; top:14px; left:0; }
+.spectra_colour_list li.blue:hover .spectra_bullet, .spectra_colour_list li.blue.active_shade .spectra_bullet { background-position:0 -13px; }
+.spectra_colour_list li.bluegreen:hover .spectra_bullet, .spectra_colour_list li.bluegreen.active_shade .spectra_bullet { background-position:0 -26px; }
+.spectra_colour_list li.brown:hover .spectra_bullet, .spectra_colour_list li.brown.active_shade .spectra_bullet { background-position:0 -39px; }
+.spectra_colour_list li.grey:hover .spectra_bullet, .spectra_colour_list li.grey.active_shade .spectra_bullet { background-position:0 -52px; }
+.spectra_colour_list li.orange:hover .spectra_bullet, .spectra_colour_list li.orange.active_shade .spectra_bullet { background-position:0 -65px; }
+.spectra_colour_list li.pink:hover .spectra_bullet, .spectra_colour_list li.pink.active_shade .spectra_bullet { background-position:0 -78px; }
+.spectra_colour_list li.red:hover .spectra_bullet, .spectra_colour_list li.red.active_shade .spectra_bullet { background-position:0 -91px; }
+.spectra_colour_list li.violet:hover .spectra_bullet, .spectra_colour_list li.violet.active_shade .spectra_bullet { background-position:0 -104px; }
+.spectra_colour_list li.whites:hover .spectra_bullet, .spectra_colour_list li.whites.active_shade .spectra_bullet { background-position:0 -117px; }
+.spectra_colour_list li.yellow:hover .spectra_bullet, .spectra_colour_list li.yellow.active_shade .spectra_bullet { background-position:0 -130px; }
+.spectra_colour_list li.yellowgreen :hover .spectra_bullet, .spectra_colour_list li.yellowgreen .active_shade .spectra_bullet { background-position:0 -143px; }
+.blue .spectra_bullet, .blue:hover, .blue.active_shade { background-color: #539beb; }
+.bluegreen .spectra_bullet, .bluegreen:hover, .bluegreen.active_shade { background-color: #19a2b2; }
+.brown .spectra_bullet, .brown:hover, .brown.active_shade { background-color: #b77c61; }
+.grey .spectra_bullet, .grey:hover, .grey.active_shade { background-color: #a7a7a6; }
+.orange .spectra_bullet, .orange:hover, .orange.active_shade { background-color: #f46f33; }
+.pink .spectra_bullet, .pink:hover, .pink.active_shade { background-color: #e04ebc; }
+.red .spectra_bullet, .red:hover, .red.active_shade { background-color: #de3818; }
+.violet .spectra_bullet, .violet:hover, .violet.active_shade { background-color: #bd5cfa; }
+.whites .spectra_bullet, .whites:hover, .whites.active_shade { background-color: #ffffff; }
+.yellow .spectra_bullet, .yellow:hover, .yellow.active_shade { background-color: #f6e918; }
+.yellowgreen .spectra_bullet, .yellowgreen:hover, .yellowgreen.active_shade { background-color: #c8fd28; }
+.spectra_popup .spectra_list { width:100%; float:left; padding:0 0 16px 0 }
+.spectra_popup .spectra_list.border { border-bottom:1px solid #c9c9c9; padding:0 }
+/*.pro_detail.spectra_detail{margin:55px 0 0 10px}*/
+.spectra_info { width:138px; margin:75px 0 0 35px }
+.spectraSlideBanner .protab h2.protitle { width:120px; padding:0 0 10px 0 }
+.spectraSlideBanner .protab img { top:85px }
+.slideContainer .slideBanner.spectraSlideBanner .tabwrap .tab { height:316px }
+.spectraOverlay, .spectraOverlaySearch, .spectraOverlayFavorites { background: url("./../images/blackOverlay.png") repeat scroll 0 0 transparent; display: none; height: 100%; left: 0; overflow: hidden; position: fixed; top: 0; width: 100%; z-index: 102; }
+#panemain1, #panemain2 { height: 350px; padding-right: 20px; }
+.spectra_list .scroll-pane { width:330px }
+.spectra_content_list.searchcolours { width:837px; padding:30px 52px }
+.searchText { color: #333333; font-family: georgia; font-size: 1.4em; padding:0 0 10px 0; float:left }
+/**/
+.bluesilver .spectra_bullet, .bluesilver:hover, .bluesilver.active_shade { background-color: #bdbad5; }
+.spectra_colour_list li.bluesilver:hover .spectra_bullet, .spectra_colour_list li.bluesilver.active_shade .spectra_bullet { background-position:0 -156px; }
+.gold .spectra_bullet, .gold:hover, .gold.active_shade { background-color: #f5af50; }
+.spectra_colour_list li.gold:hover .spectra_bullet, .spectra_colour_list li.gold.active_shade .spectra_bullet { background-position:0 -156px; }
+.goldengreen .spectra_bullet, .goldengreen:hover, .goldengreen.active_shade { background-color: #818B4C; }
+.spectra_colour_list li.goldengreen:hover .spectra_bullet, .spectra_colour_list li.goldengreen.active_shade .spectra_bullet { background-position:0 -156px; }
+.greensilver .spectra_bullet, .greensilver:hover, .greensilver.active_shade { background-color: #CDC48D; }
+.spectra_colour_list li.greensilver:hover .spectra_bullet, .spectra_colour_list li.greensilver.active_shade .spectra_bullet { background-position:0 -156px; }
+.pinksilver .spectra_bullet, .pinksilver:hover, .pinksilver.active_shade { background-color: #F1A2A7; }
+.spectra_colour_list li.pinksilver:hover .spectra_bullet, .spectra_colour_list li.pinksilver.active_shade .spectra_bullet { background-position:0 -156px; }
+.puresilver .spectra_bullet, .puresilver:hover, .puresilver.active_shade { background-color: #FCF5ED; }
+.spectra_colour_list li.puresilver:hover .spectra_bullet, .spectra_colour_list li.puresilver.active_shade .spectra_bullet { background-position:0 -156px; }
+.violetsilver .spectra_bullet, .violetsilver:hover, .violetsilver.active_shade { background-color: #9E80BE; }
+.spectra_colour_list li.violetsilver:hover .spectra_bullet, .spectra_colour_list li.violetsilver.active_shade .spectra_bullet { background-position:0 -156px; }
+.yellowsilver .spectra_bullet, .yellowsilver:hover, .yellowsilver.active_shade { background-color: #FFAC7A; }
+.spectra_colour_list li.yellowsilver:hover .spectra_bullet, .spectra_colour_list li.yellowsilver.active_shade .spectra_bullet { background-position:0 -156px; }
+/**/
+.premiumglossenamel .spectra_bullet, .premiumglossenamel:hover, .premiumglossenamel.active_shade { background-color: #ECFAE7; }
+.spectra_colour_list li.premiumglossenamel:hover .spectra_bullet, .spectra_colour_list li.premiumglossenamel.active_shade .spectra_bullet, .spectra_colour_list li.premiumsatinenamel.active_shade .spectra_bullet, .spectra_colour_list li.premiumsatinenamel:hover .spectra_bullet { background-position:0 -156px; }
+.premiumsemiglossenamel .spectra_bullet, .premiumsemiglossenamel:hover, .premiumsemiglossenamel.active_shade { background-color: #F3F0DB; }
+.premiumsatinenamel .spectra_bullet, .premiumsatinenamel:hover, .premiumsatinenamel.active_shade { background-color:#92624F; }
+.spectra_colour_list li.premiumsemiglossenamel:hover .spectra_bullet, .spectra_colour_list li.premiumsemiglossenamel.active_shade .spectra_bullet { background-position:0 -156px; }
+.tractorsynthetic .spectra_bullet, .tractorsynthetic:hover, .tractorsynthetic.active_shade, .tractorsynthetic:hover { background-color: #FFF4D9; }
+.spectra_colour_list li.tractorsynthetic:hover .spectra_bullet, .spectra_colour_list li.tractorsynthetic.active_shade .spectra_bullet { background-position:0 -156px; }
+.silver .spectra_bullet, .silver:hover, .silver.active_shade { background-color: #EBE0DA; }
+.spectra_colour_list li.silver:hover .spectra_bullet, .spectra_colour_list li.silver.active_shade .spectra_bullet { background-position:0 -156px; }
+.green .spectra_bullet, .green:hover, .green.active_shade { background-color: #A69500; }
+.spectra_colour_list li.green:hover .spectra_bullet, .spectra_colour_list li.green.active_shade .spectra_bullet { background-position:0 -156px; }
+/**/
+.shade_field .cheked, .shade_field .uncheked { background:url(./../images/square_option_btn.png) no-repeat 0 -25px; display:inline-block; position:absolute; left:0; top:0; height:22px; width:27px; z-index:1; }
+.shade_field .uncheked { background-position:0 0; }
+.shade_field { float: left; padding: 0; position: relative; width:115px; }
+.shade_field input { opacity:0; filter:alpha(opacity=0); height: 25px; margin-right: 5px; float:left; position: relative; width: 25px; z-index: 2; cursor:pointer; padding:0 }
+.shade_field label { font-family:Arial; font-size:1.3em; color:#717173; padding:2px 0 0 0; float:left }
+.reset_btn { background: url(./../images/locGo.png) no-repeat scroll 0 0; float:right; /*padding-right:27px;*/ margin-top:10px; }
+/**/
+.shade_search .radioBg li { position:relative }
+.radioBg label { float:left; color:#000; font-size:1.6em; padding:3px 15px 0 5px; }
+.radioBg ul li input { opacity:0; filter:alpha(opacity=0); height:25px; width:20px; left:14px; top:10px; position: absolute; z-index:2; float:left; cursor:pointer }
+.radioBg ul li .cheked, .radioBg ul li .uncheked { background:url(./../images/square_option_btn.png) no-repeat 0 -25px; display:inline-block; position:relative; height:25px; width:27px; z-index:1; float:left; }
+.radioBg ul li .uncheked { background-position:0 0; float:left; }
+/**/
+.csintrocopy { clear:both; color: #666666; font-family: arial; font-size: 1.3em; padding-bottom: 40px; width:944px; line-height:20px }
+.spectra_form { float:left }
+.spectra_form .input_field { background: url(./../images/inputNew_bg.png) no-repeat 0 0; float: left; }
+.spectra_form .input_field input { background: none; color: #fff; font-family: Arial; font-size: 1.3em; height: 18px; padding: 8px 18px; width: 153px; }
+.spectra_form label { color: #717173; float: left; font-family: Arial; font-size: 1.3em; padding:10px 5px; }
+.reset_btn a { text-decoration:none; color: #fff; font-family: Arial; font-size: 1.3em; padding: 4px 16px 5px 14px; display:block }
+.spectra_btn { background: url(./../images/locGo.png) no-repeat scroll 0 0; float: left; margin: 7px 10px; width: 64px; }
+.spectra_btn a { text-decoration:none; color: #fff; font-family: Arial; font-size: 1.3em; padding: 4px 16px 5px 14px; display:block }
+.spectra_btn a.CancelEmail { padding:4px 16px 5px 8px }
+/**/
+
+/**/
+.spectra_popupsearch .spectra_list li { padding:0 1px 17px 0 }
+.spectra_popupsearch .minus_ico { background-position:0 0; width:28px; height:26px; right:1px; bottom:1px; padding:0 5px 0 0 }
+.spectra_popupsearch .shade_code { font-size:1.8em; float:left; padding:3px 0 0 0 }
+.spectra_popupsearch .spectra_list li .shade_name { padding:0 }
+.spectra_popupsearch { padding:10px; width:354px; background:#fff; color:#333333; position:absolute; -webkit-box-shadow: 2px 2px 2px 2px #d3d3d3; box-shadow: 1px 1px 2px 2px #d3d3d3; display:none; left:20px; top:30px; z-index:105 }
+.spectra_popupsearch .shade_name { font-size:1.3em; float:left; padding:8px 0 0 5px }
+.spectra_popupsearch .view_shade { font-size:1.2em; float:right; padding:8px 10px 0 0; background: url("./../images/arrow-right.gif") no-repeat scroll right 12px transparent; margin:0 10px 0 0 }
+.spectra_popupsearch p { width:100%; float:left; font-size:1.3em; margin:15px 0 0 0 }
+.spectra_popupsearch .spectra_list { width:100%; float:left; padding:0 0 20px 0 }
+.spectra_popupsearch .spectra_list.border { border-bottom:1px solid #c9c9c9 }
+/**/
+
+/**/
+.spectra_popupfavorites .spectra_list li { padding:0 1px 17px 0 }
+.spectra_popupfavorites .minus_ico { background-position:0 0; width:28px; height:26px; right:1px; bottom:1px; padding:0 5px 0 0 }
+.spectra_popupfavorites .shade_code { font-size:1.8em; float:left; padding:3px 0 0 0 }
+.spectra_popupfavorites .spectra_list li .shade_name { padding:0 }
+.spectra_popupfavorites { padding:10px; width:354px; background:#fff; color:#333333; position:absolute; -webkit-box-shadow: 2px 2px 2px 2px #d3d3d3; box-shadow: 1px 1px 2px 2px #d3d3d3; display:none; left:20px; top:30px; z-index:105 }
+.spectra_popupfavorites .shade_name { font-size:1.3em; float:left; padding:8px 0 0 5px }
+.spectra_popupfavorites .view_shade { font-size:1.2em; float:right; padding:8px 10px 0 0; background: url("./../images/arrow-right.gif") no-repeat scroll right 12px transparent; margin:0 10px 0 0 }
+.spectra_popupfavorites p { width:100%; float:left; font-size:1.3em; margin:15px 0 0 0 }
+.spectra_popupfavorites .spectra_list { width:100%; float:left; padding:0 0 20px 0 }
+.spectra_popupfavorites .spectra_list.border { border-bottom:1px solid #c9c9c9 }
+/**/
+.goBackMain { background:#F2F1F1; padding:0 10px 0 0; float:left; width:931px }
+.goBackMain .goBack_btn { float: right; height: 31px; margin: 5px -5px 0 0; width: 32px; }
+.chkBx { height: 95px; position: absolute; left:20px; opacity:0; width: 90px; top:0; filter: alpha(opacity=0); }
+.activeLI .shade_container span.colour_code { border-color:#d61d0e; }
+.spectra_list .colour_code { width:84px; }
+/***** result page css *********/
+.spectra_content_wid { width:100%; }
+.spectra_content h2 { font-family:'accordaltregularregular'; font-size:2.6em; padding:0; margin:0 0 10px 0; float:left; color:#333; width:100% }
+.spectra_content_result_list { background: none repeat scroll 0 0 #F2F1F1; float: left; padding:30px 17px; width:895px; position:relative; border-radius:0 0 10px 10px; border:1px solid #ccc; behavior: url(/js/PIE.htc); top:-5px; }
+.spectra_content_result_list .spectra_list { margin-bottom:25px; }
+.headingSec { width:100%; float:left; margin-bottom:10px; }
+.spectra_content_result_list .lastUL { border-bottom:none; margin-bottom:25px; }
+.headingSec { display:none; }
+.headingSec span.headBk { font-size:2.2em; color:#333333; font-family:'accordaltregularregular'; background:url("./../images/menu-icon.png") no-repeat 0 0; padding-left:30px; }
+.headingSec span.snapit { background-position:-10px -1104px }
+.headingSec span.colSpectra { background-position:-10px -67px; }
+.headingSec span.added { font-size:1.3em; color:#999999; font-style:italic; margin-left:10px; }
+.headingSec span.addeddate { font-size:1.3em; color:#333333; font-style:italic; }
+.spectra_content_result_list .divider { border-bottom:1px solid #ccc; float:left; width:930px; left:-17px; position:relative; }
+.spectra_content_result_list a.seeMore { font-size:1.2em; color:#F00; margin-bottom:10px; float:left; background:url(./../images/link-arrow.gif) no-repeat 0 3px; padding-left:10px; }
+.selestShade { float: left; margin-top: 15px; padding-left: 37px; position: relative; text-align: right; top: -60px; width: 94%; }
+.selestShade span { padding-top:5px; float:left; font-size:1.4em; color:#333333 }
+.selestShade a { float:left; margin-left:10px }
+.spectra_content_result_list .spectra_list li .plus_ico, .spectra_content_result_list .spectra_popup .minus_ico, .spectra_content_result_list .spectra_popupsearch .minus_ico, .spectra_content_result_list .spectra_popupfavorites .minus_ico { background:url(./../images/eyeIcon.png) no-repeat scroll 0 0px transparent; width:22px; z-index:1; }
+.resultFav .spectra_fav { width:250px; margin-left:150px; *width:230px;
+}
+.spectra_fav a.redInputBox { height:auto; padding:0 20px 5px 0; font-size:0.8em; margin-right:8px; top:-4px; position:relative }
+/***** result page css *********/
+
+.spectra_list li .shade_code, .spectra_popup .spectra_list li .shade_code, .spectra_popupsearch .spectra_list li .shade_code, .spectra_popupfavorites .spectra_list li .shade_code { color:#333333; font-family:Arial; font-size:1.1em; float:left; width:100%; margin:5px 0 0 0 }
+.tab_wraper ul.tabbed_content_spectra li.first.active_tab { background:#feb834 url(./../images/tbbtnbg.gif) no-repeat 0 0 }
+.tab_wraper ul.tabbed_content_spectra li.last { background:#ffeabe url(./../images/tbbtnbg.gif) no-repeat right -102px }
+.tabbed_content_spectra li.active_tab .pointer { background: url(./../images/active_tab_arrow.png) no-repeat scroll center bottom transparent; height: 11px; left: 42%; position: absolute; top: 52px; width: 29px; }
+.spectra_list li .shade_name { font-family:Arial; font-size:1.0em; color:#999999; float:left; width:100% }
+.tab_wraper { padding:10px 20px 10px 0; float:left }
+.tab_wraper ul.tabbed_content_spectra { margin:0; padding:0; width:100%; }
+.tab_content .tab_content_info ul { width:100% }
+.tab_wraper ul.tabbed_content_spectra li:first-child { border:none }
+.tab_wraper ul.tabbed_content_spectra li { cursor: pointer; margin:0; float: left; padding: 13px 0; position: relative; text-align: center; width:231px; background: #FFEABE; margin: 0 2px 0 0 }
+.tab_content .tab_content_info ul li { width:92px; list-style:none; background:none }
+.tab_wraper ul.tabbed_content_spectra li.first { border-radius: 24px 0 0 0; }
+.tab_wraper ul.tabbed_content_spectra li.last { border-radius: 0 24px 0 0; margin:0 }
+.tab_wraper ul.tabbed_content_spectra li.active_tab { background:#feb834 }
+.tab_wraper ul.tabbed_content_spectra li h2 { font-size:1.3em; color:#717173; font-size:1.5em; }
+.tab_wraper ul.tabbed_content_spectra li.active_tab h2 { color: #303030; }
+.tab_wraper .tab_content { width:100%; background:none; padding:0 }
+.tab_content .tab_content_info { padding:0 }
+.tab_wraper ul.tabbed_content_spectra li.active_tab .pointer { top: 49px; z-index:1; }
+.tab_content_info .bbanerImg { padding:10px 0; float: left }
+.tab_content_info .complimentary { padding: 10px 0 0 0; float: left }
+.tab_content_info .shadesGuide { padding: 10px 0 0 0; border-bottom:1px solid #ccc; float: left; width:100%; }
+.tab_content_info .quiz { clear:both; float:left; padding:10px 0; width:100%; border-top:1px solid #ccc; margin:10px 0 0 0 }
+.tab_content_info h2, .tab_content_info h3, .tab_content_info h4, .tab_content_info h5 { color:#303030; font-family: 'accordaltregularregular'; font-weight:normal; float:left; width:610px }
+.tab_content_info h2 { font-size:2.4em; }
+.tab_content_info h3 { font-size:1.8em; padding:8px 10px; }
+.resultSpectra { width:881px; border:1px solid #ccc; border-top:none; top:-63px; border-radius:0 0 10px 10px; display:none; float:left; padding:30px 17px 30px 31px; }
+#selMail { display:none; }
+.mailSel #unSelMail { display:none; }
+.mailSel #selMail { display:block; }
+.spectra_fav_bck { float:right; padding-top:35px; margin-right:35px; }
+.removeFavoriteIcon { padding: 6px 0; }
+.goBackMain p { color: #333333; float: left; font-family: accordaltregularregular; font-size: 2em; font-weight: bold; padding: 30px 15px 0 52px; }
+/*LEft Accordian Css Start Here*/
+.spectra_content_left .acorList h3 { background: url(./../images/accordClosed.png) no-repeat 138px 20px transparent; padding:15px 10px; font-family:'accordaltregularregular'; font-size: 1.6em; width:138px; cursor:pointer; float:left; margin:1px 0 0 0; border-bottom:1px solid #AEAEAC }
+.spectra_content_left .acorList.first { margin:25px 0 0 0; position:relative }
+.spectra_content_left .acorList.first h3 span.sText { font-size: 11px; left: 5px; position: absolute; top: 35px; }
+.spectra_content_left .acorList.first h3 { background:transparent; padding:15px 10px; font-family:'accordaltregularregular'; font-size: 1.6em; width:138px; cursor:pointer; float:left; margin:1px 0 0 0; border-bottom:1px solid #AEAEAC }
+.spectra_content_left .acorList.first h3:hover { background:#EADBC0 !important; }
+.spectra_content_left .acorList.first h3.active { background:#EADBC0; }
+.spectra_content_left .acorList h3.active { background:#B1C8D0 url(./../images/accordOpen.png) no-repeat 138px 20px; }
+.spectra_content_left .acorList h3.active:hover { background:#B1C8D0 url(./../images/accordOpen.png) no-repeat 138px 20px; }
+.spectra_content_left .acorList h3:hover { background:#B1C8D0 url(./../images/accordClosed.png) no-repeat 138px 20px; }
+.spectra_content_left .spectra_colour_list.acorData { padding:0; display:none }
+/*New Css Date:1 Nov 2013 Start*/
+.limegreen .spectra_bullet, .limegreen:hover, .limegreen.active_shade { background-color: #CFCA53; }
+.spectra_colour_list li.limegreen:hover .spectra_bullet, .spectra_colour_list li.limegreen.active_shade .spectra_bullet { background-position:0 78px; } 
+
+.neutrals .spectra_bullet, .neutrals:hover, .neutrals.active_shade { background-color: #BFBAB9; }
+.spectra_colour_list li.neutrals:hover .spectra_bullet, .spectra_colour_list li.neutrals.active_shade .spectra_bullet { background-position:0 -182px; } 
+ 
+.olivegreen .spectra_bullet, .olivegreen:hover, .olivegreen.active_shade { background-color: #8A8B68; }
+.spectra_colour_list li.olivegreen:hover .spectra_bullet, .spectra_colour_list li.olivegreen.active_shade .spectra_bullet { background-position:0 -195px; }
+
+/*.olivegreen .spectra_bullet, .olivegreen:hover, .olivegreen.active_shade{background-color: #8A8B68; }
+.spectra_colour_list li.olivegreen:hover .spectra_bullet, .spectra_colour_list li.olivegreen .active_shade .spectra_bullet{background-position: 0 -195px;}
+.violetspurplemuaves .spectra_bullet, .violetspurplemuaves:hover, .violetspurplemuaves.active_shade{background-color: #c498b2;  }
+.spectra_colour_list li.violetspurplemuaves:hover .spectra_bullet, .spectra_colour_list li.violetspurplemuaves .active_shade .spectra_bullet{background-position: 0 -208px;}
+.whitescremes .spectra_bullet, .whitescremes:hover, .whitescremes.active_shade{background-color: #c4bea6; }
+.spectra_colour_list li.whitescremes:hover .spectra_bullet, .spectra_colour_list li.whitescremes .active_shade .spectra_bullet{background-position: 0 -221px;}*/
+
+/*New Css Date:1 Nov 2013 End*/
+/*LEft Accordian Css End Here*/
+/*style for IPAD*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+.spectra_bullet, .spectra_content_left .spectra_colour_list li:hover .spectra_bullet {
+outline:1px solid #fbfaf8;
+}
+.spectra_colour_list li.bluesilver:hover .spectra_bullet, .spectra_colour_list li.active_shade .spectra_bullet {
+outline:1px solid transparent !important;
+overflow:hidden;
+}
+}
+
+/*styling for new links start added on 17Dec2014*/
+.apcolitepremiumglossenamel .spectra_bullet, .apcolitepremiumglossenamel:hover, .apcolitepremiumglossenamel.active_shade { background-color: #ECFAE7; }
+.apcolitepremiumsatinenamel .spectra_bullet, .apcolitepremiumsatinenamel:hover, .apcolitepremiumsatinenamel.active_shade { background-color: #92624F; }
+.spectra_colour_list li.apcolitepremiumsatinenamel.active_shade .spectra_bullet, .spectra_colour_list li.apcolitepremiumsatinenamel:hover .spectra_bullet { background-position:0 -156px; }
+/*styling for new links start added on 17Dec2014 end*/
