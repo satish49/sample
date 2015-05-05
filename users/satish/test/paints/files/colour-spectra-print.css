@@ -1,0 +1,12 @@
+@charset "utf-8";
+.top-navigation, .bannerbox, .footer, .breadcrumb, .shade_search, .page_ttl, .spectra_fav, .noprint , .nav, .lightbox3, .reg_lightbox, .spectra_content_left, .spectra_tabs, .plus_ico{ display: none; }
+.Wrapperbg, body{ background:none; padding:0;}
+.noprint{ visibility:hidden}
+.header{ padding-bottom:15px}
+.spectra_content_list.searchcolours{ margin:20px 0}
+.spectra_list li{height:120px; margin:0 5px 0 0}
+.spectra_list li .shade_code, .spectra_popupsearch .spectra_list li .shade_code{font-size:1.4em}
+.spectra_content_right {
+    float: left;
+    width: 800px;
+}
